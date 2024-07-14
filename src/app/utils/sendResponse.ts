@@ -1,3 +1,5 @@
+import { Response } from "express";
+
 type TResdata<T> = {
   statusCode: number;
   success: boolean;
